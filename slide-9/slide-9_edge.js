@@ -48,12 +48,21 @@
                             opacity: '0.024390243902439',
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['26px', '694px', '634px', '34px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1024px', '768px'],
+                            rect: ['null', 'null', '1024px', '768px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
@@ -106,8 +115,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1024px', '768px']
+                            rect: [null, null, '1024px', '768px']
                         }
                     }
                 },

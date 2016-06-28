@@ -55,6 +55,15 @@
                             opacity: '0',
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['17px', '696px', '576px', '17px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {

@@ -32,12 +32,21 @@
                             type: 'image',
                             rect: ['0px', '0px', '1024px', '768px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"slide-5-back.png",'0px','0px']
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['21px', '695px', '624px', '40px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1024px', '768px'],
+                            rect: ['null', 'null', '1024px', '768px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }

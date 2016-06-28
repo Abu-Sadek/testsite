@@ -47,13 +47,22 @@
                             opacity: '0',
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle2',
+                            type: 'rect',
+                            rect: ['15px', '694px', '640px', '41px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1024px', '768px'],
-                            overflow: 'hidden',
+                            rect: ['null', 'null', '1024px', '768px', 'auto', 'auto'],
+                            overflow: 'auto',
                             fill: ["rgba(255,255,255,1)"]
                         }
                     }
@@ -105,8 +114,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1024px', '768px']
+                            rect: [null, null, '1024px', '768px']
                         }
                     }
                 },

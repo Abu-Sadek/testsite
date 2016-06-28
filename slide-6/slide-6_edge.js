@@ -32,6 +32,15 @@
                             type: 'image',
                             rect: ['0px', '0px', '1024px', '768px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"slide-6-back.png",'0px','0px']
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['16px', '696px', '630px', '38px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {

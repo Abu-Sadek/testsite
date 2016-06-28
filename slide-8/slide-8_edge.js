@@ -49,19 +49,28 @@
                             opacity: '0',
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['15px', '692px', '648px', '29px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '1024px', '768px'],
-                            overflow: 'hidden',
+                            rect: ['null', 'null', '1024px', '768px', 'auto', 'auto'],
+                            overflow: 'auto',
                             fill: ["rgba(255,255,255,1)"]
                         }
                     }
                 },
                 timeline: {
-                    duration: 500,
+                    duration: 795,
                     autoPlay: true,
                     data: [
                         [
@@ -71,8 +80,8 @@
                             0,
                             "linear",
                             "${RoundRect}",
-                            [270,[['rgba(255,255,255,0)',0],['rgba(255,255,255,0)',100]]],
-                            [270,[['rgba(255,255,255,0)',0],['rgba(255,255,255,0)',100]]]
+                            [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]],
+                            [270,[['rgba(255,255,255,0.00)',0],['rgba(255,255,255,0.00)',100]]]
                         ],
                         [
                             "eid3",
@@ -147,8 +156,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1024px', '768px']
+                            rect: [null, null, '1024px', '768px']
                         }
                     }
                 },
