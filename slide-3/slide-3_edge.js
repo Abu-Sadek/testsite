@@ -82,6 +82,14 @@
                             rect: ['220px', '-40px', '1024px', '768px', 'auto', 'auto'],
                             opacity: '0',
                             fill: ["rgba(0,0,0,0)",im+"slide-3-c-7.png",'0px','0px']
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['16px', '692px', '570px', '22px', 'auto', 'auto'],
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
                         }
                     ],
                     style: {

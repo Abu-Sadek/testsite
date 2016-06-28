@@ -18,11 +18,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          	var script = document.createElement( 'script' );
          	script.type = 'text/javascript';
          	script.src = url;
-         	$("#Stage").append( script );
+         	//document.getElementById("Stage").appendChild( script );
+         	document.head.appendChild( script );
          };
          
-         createScript('scripts/pdf/pdf.js') ;
-         createScript('scripts/js/openpdf.js') ;
+         createScript('../refs/scripts/js/openpdf.js') ;
+         createScript('../refs/scripts/js/jquery-3.0.0.min.js') ;
+         window.setTimeout(
+         	function() { 
+         		createViewer('Stage')
+         		}, 1000) ;
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
+         openPdf('o1', 'Stage') ;
 
       });
       //Edge binding end
