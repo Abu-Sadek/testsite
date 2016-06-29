@@ -7,7 +7,7 @@ function getLink(ind) {
 	c["o5"] = "12-Sever-ASCOT.pdf" ;
 	c["o6"] = "13-CARDS.pdf" ;
 	c["o7"] = "14-PROVE-IT.pdf" ;
-	c["o8"] = "15-1-Safety_of_44_trials-ref 10.pdf" ;
+	c["o8"] = "15-1-Safety_of_44_trials-ref-10-o.pdf" ;
 	c["o9"] = "15-2-Data-on-File-lipitor.pdf" ;
  	var t = c[ind] ;
 	return t ; 			
