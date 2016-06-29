@@ -34,6 +34,15 @@
                             fill: ["rgba(0,0,0,0)",im+"slide-11-back.png",'0px','0px']
                         },
                         {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['33px', '700px', '642px', '36px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
                             id: 'slide-11-b1',
                             type: 'image',
                             rect: ['306px', '325px', '73px', '199px', 'auto', 'auto'],
@@ -99,14 +108,14 @@
                             {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
                         ],
                         [
-                            "eid15",
+                            "eid8",
                             "clip",
-                            1000,
+                            500,
                             250,
                             "linear",
-                            "${slide-11-b4}",
-                            [0,82,0,0],
-                            [0,82,281,0],
+                            "${slide-11-b2}",
+                            [0,72,0,0],
+                            [0,72,209,0],
                             {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
                         ],
                         [
@@ -121,14 +130,14 @@
                             {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
                         ],
                         [
-                            "eid8",
+                            "eid15",
                             "clip",
-                            500,
+                            1000,
                             250,
                             "linear",
-                            "${slide-11-b2}",
-                            [0,72,0,0],
-                            [0,72,209,0],
+                            "${slide-11-b4}",
+                            [0,82,0,0],
+                            [0,82,281,0],
                             {valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'}
                         ]
                     ]

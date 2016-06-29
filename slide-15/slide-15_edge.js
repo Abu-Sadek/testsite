@@ -55,6 +55,24 @@
                             opacity: '0',
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['59px', '696px', '619px', '35px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'Rectangle2',
+                            type: 'rect',
+                            rect: ['59px', '736px', '619px', '19px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgb(0, 0, 0)","none"]
                         }
                     ],
                     style: {

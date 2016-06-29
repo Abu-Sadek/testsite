@@ -34,6 +34,15 @@
                             fill: ["rgba(0,0,0,0)",im+"slide-13-back.png",'0px','0px']
                         },
                         {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['25px', '692px', '653px', '47px', 'auto', 'auto'],
+                            cursor: 'pointer',
+                            opacity: '0',
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
                             id: 'slide-13-box-2',
                             type: 'image',
                             rect: ['196', '278', '594px', '286px', 'auto', 'auto'],

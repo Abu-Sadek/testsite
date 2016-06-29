@@ -53,6 +53,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle}", "click", function(sym, e) {
+         openPdf('o8', 'Stage') ;
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${Rectangle2}", "click", function(sym, e) {
+         openPdf('o9', 'Stage') ;
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
