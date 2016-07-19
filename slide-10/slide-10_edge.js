@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='media/images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -109,7 +109,7 @@
                             id: 'slide-10-text',
                             opacity: '0',
                             display: 'block',
-                            fill: ['rgba(0,0,0,0)', 'images/slide-10-text.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', 'media/images/slide-10-text.png', '0px', '0px']
                         }
                     ],
                     style: {

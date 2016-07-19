@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='media/images/',
         aud='media/',
         vid='media/',
         js='js/',

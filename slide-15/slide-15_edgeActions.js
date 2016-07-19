@@ -46,8 +46,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          	document.getElementsByTagName('head')[0].appendChild( script );
          };
          
-         createScript('../refs/scripts/js/jquery-3.0.0.min.js') ;
-         createScript('../refs/scripts/js/openpdf.js', function() { createViewer('Stage'); }) ;
+         createScript('refs/scripts/js/jquery-3.0.0.min.js') ;
+         createScript('refs/scripts/js/openpdf.js', function() { createViewer('Stage'); }) ;
          
 
       });
