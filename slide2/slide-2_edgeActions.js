@@ -14,25 +14,37 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       
       
       Symbol.bindElementAction(compId, symbolName, "${Link1}", "click", function(sym, e) {
-         window.location="../slide-3/slide-3.html";
+		if(window.parent.navigateToSequence)
+			window.parent.navigateToSequence('slide3')
+		else
+			window.location="../slide3/slide-3.html";
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${Link2}", "click", function(sym, e) {
-         window.location="../slide-5/slide-5.html";
+		if(window.parent.navigateToSequence)
+			window.parent.navigateToSequence('slide5')
+		else
+			window.location="../slide-5/slide-5.html";
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${Link3}", "click", function(sym, e) {
-         window.location="../slide-11/slide-11.html";
+		if(window.parent.navigateToSequence)
+			window.parent.navigateToSequence('slide11')
+		else
+			window.location="../slide-11/slide-11.html";
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${Link4}", "click", function(sym, e) {
-         window.location="../slide-16/slide-16.html";
+		if(window.parent.navigateToSequence)
+			window.parent.navigateToSequence('slide16')
+		else
+			window.location="../slide-16/slide-16.html";
          
 
       });

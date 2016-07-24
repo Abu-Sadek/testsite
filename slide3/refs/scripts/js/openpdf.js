@@ -22,11 +22,18 @@ function createViewer(stg) {
 	im.setAttribute("id", "viewPDF-close") ;
 	im.src="../refs/imgs/btn_overlay_close.png" ;
 	im.onclick = function() { closePdf(stg) ; };
-	im.style="z-index: 0; position:absolute; left: 900px; top: 0px" ;
+	//im.style="z-index: 0; position:absolute; left: 900px; top: 0px" ;
+	im.style.zIndex=0;
+	im.style.position='absolute'; 
+	im.style.left='900px';
+	im.style.top='0px' ;
 	rv.appendChild(im) ;
 	var ifr = document.createElement("iframe") ;
 	ifr.setAttribute("id", "pdf1") ;
-	ifr.style = "display: block; width: 1024px; height:658px" ;
+	//ifr.style = "display: block; width: 1024px; height:658px" ;
+	ifr.style.display='block';
+	ifr.style.width='1024px'
+	ifr.style.height='658px' ;
 	ifr.src = "../refs/scripts/pdf/viewer.html?file=" ;
 	ifr.frameborder = "0" ;
 	rv.appendChild(ifr) ;
